@@ -1,4 +1,4 @@
-##MyApplication – Guess the Number 🎯
+#MyApplication – Guess the Number 🎯
  <h1>📱 Sobre o App</h1>
 <p>Este é um aplicativo simples desenvolvido como exercício em aula utilizando Jetpack Compose, onde o usuário tenta adivinhar um número gerado aleatoriamente pelo sistema.</p>
 
