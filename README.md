@@ -1,30 +1,36 @@
-#MyApplication – Guess the Number 🎯
- <h1>📱 Sobre o App</h1>
-<p>Este é um aplicativo simples desenvolvido como exercício em aula utilizando Jetpack Compose, onde o usuário tenta adivinhar um número gerado aleatoriamente pelo sistema.</p>
+# 🎯 MyApplication – Guess the Number
 
-<p>O objetivo do jogo é inserir um número entre 1 e 100 e receber uma resposta dizendo se o número digitado é maior, menor, ou se o usuário acertou.</p>
+## 📱 Sobre o App
+**MyApplication** é um aplicativo simples e interativo desenvolvido como exercício educacional com **Jetpack Compose**, onde o jogador tenta adivinhar um número aleatório entre 1 e 100.
 
-<h1>🛠️ Tecnologias Utilizadas</h1>
-<p>Kotlin</p>
+O app informa se o número inserido é **muito baixo**, **muito alto**, ou se o jogador **acertou**. Ao acertar, o número de tentativas é registrado e um novo jogo se inicia automaticamente.
 
-<p>Jetpack Compose</p>
+## 🛠️ Tecnologias Utilizadas
+- [Kotlin](https://kotlinlang.org/)
+- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [Android Studio](https://developer.android.com/studio)
 
-<p>Android Studio</p>
+## 🎓 Propósito Educacional
+Este projeto foi criado com fins didáticos, como parte da introdução ao desenvolvimento de interfaces com Jetpack Compose, abordando conceitos fundamentais como:
 
-<h1>🎓 Propósito Educacional</h1>
-<p>Este projeto foi criado com fins didáticos, como parte da introdução ao desenvolvimento de interfaces com Jetpack Compose, focando nos conceitos básicos como:</p>
+- `@Composable`
+- `remember` para gerenciamento de estado
+- Componentes da UI: `TextField`, `Text`, `Button`, `Column`, `LazyColumn`
+- Lógica condicional e manipulação de entrada do usuário
 
-<p>@Composable</p>
+## 💡 Funcionalidades
+✅ Geração aleatória de número secreto  
+✅ Validação de entrada do usuário  
+✅ Feedback se o palpite é muito alto, muito baixo ou correto  
+✅ Contador de tentativas  
+✅ Ranking com os melhores jogos (ordenado pelo menor número de palpites)
 
-<p>remember (estado)</p>
+## 📸 Captura de Tela *(Exemplo visual do app)*
+> Adicione aqui uma imagem da tela do app, como por exemplo:
 
-<p>TextField, Text, Button, Column</p>
+![App Screenshot](screenshot.png)
 
-<h1>💡 Funcionalidades</h1>
-<p>Geração aleatória de um número secreto</p>
-
-<p>Entrada de dados pelo usuário</p>
-
-<p>Validação da entrada</p>
-
-<p>Feedback dinâmico com dicas: "Muito alto", "Muito baixo", ou "Você acertou!"</p>
+## 🚀 Como Executar
+1. Clone este repositório
+   ```bash
+   git clone https://github.com/seu-usuario/MyApplication.git
