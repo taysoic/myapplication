@@ -25,10 +25,6 @@ Este projeto foi criado com fins didáticos, como parte da introdução ao desen
 ✅ Contador de tentativas  
 ✅ Ranking com os melhores jogos (ordenado pelo menor número de palpites)
 
-## 📸 Captura de Tela *(Exemplo visual do app)*
-> Adicione aqui uma imagem da tela do app, como por exemplo:
-
-![App Screenshot](screenshot.png)
 
 ## 🚀 Como Executar
 1. Clone este repositório
