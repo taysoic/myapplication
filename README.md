@@ -1,9 +1,10 @@
+
 # 🎯 MyApplication – Guess the Number
 
 ## 📱 Sobre o App
-**MyApplication** é um aplicativo simples e interativo desenvolvido como exercício educacional com **Jetpack Compose**, onde o jogador tenta adivinhar um número aleatório entre 1 e 100.
+**MyApplication** é um aplicativo simples e interativo desenvolvido como exercício educacional com **Jetpack Compose**, onde o jogador tenta adivinhar um número aleatório entre **1 e 10**.
 
-O app informa se o número inserido é **muito baixo**, **muito alto**, ou se o jogador **acertou**. Ao acertar, o número de tentativas é registrado e um novo jogo se inicia automaticamente.
+O app informa se o número inserido é **muito baixo**, **muito alto**, ou se o jogador **acertou**. Ao acertar, o número de tentativas é registrado e o jogador é redirecionado automaticamente para a tela de **Ranking**.
 
 ## 🛠️ Tecnologias Utilizadas
 - [Kotlin](https://kotlinlang.org/)
@@ -14,22 +15,28 @@ O app informa se o número inserido é **muito baixo**, **muito alto**, ou se o 
 Este projeto foi criado com fins didáticos, como parte da introdução ao desenvolvimento de interfaces com Jetpack Compose, abordando conceitos fundamentais como:
 
 - `@Composable`
-- `remember` para gerenciamento de estado
-- Componentes da UI: `TextField`, `Text`, `Button`, `Column`, `LazyColumn`
-- Lógica condicional e manipulação de entrada do usuário
+- `remember` e `mutableStateOf` para gerenciamento de estado
+- Navegação manual entre telas com variáveis de estado
+- Componentes da UI como:
+  - `Text`, `TextField`, `Button`
+  - `Column`, `Row`, `LazyColumn`
+- Estruturas condicionais e manipulação da entrada do usuário
 
 ## 💡 Funcionalidades
-✅ Geração aleatória de número secreto  
-✅ Validação de entrada do usuário  
-✅ Feedback se o palpite é muito alto, muito baixo ou correto  
-✅ Contador de tentativas  
-✅ Ranking com os melhores jogos (ordenado pelo menor número de palpites)
+✅ Geração aleatória de número secreto (entre 1 e 10)  
+✅ Entrada de nome do jogador antes do jogo iniciar  
+✅ Validação da entrada do usuário (somente números entre 1 e 10)  
+✅ Feedback visual se o palpite é alto, baixo ou correto  
+✅ Contador de tentativas exibido ao final  
+✅ Ranking com os melhores resultados (ordenado pelo menor número de tentativas)  
+✅ Reinício do jogo sem sair da tela atual  
+✅ Navegação entre **Início**, **Jogo** e **Ranking**
 
 ## 📸 Captura de Tela *(Exemplo visual do app)*
-> ![image](https://github.com/user-attachments/assets/0d4ff545-52b6-4bae-b1cf-11112550b522)
-
+>![image](https://github.com/user-attachments/assets/a1cc0fd2-bd87-478d-8ae2-f7ff6136b0f0)
+  
 
 ## 🚀 Como Executar
-1. Clone este repositório
+1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/MyApplication.git
